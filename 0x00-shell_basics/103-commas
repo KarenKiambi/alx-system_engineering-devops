@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -A1 | { (echo .; echo ..; ls -A1 | grep -E "^[0-9A-Za-z]"); } | paste -sd,
