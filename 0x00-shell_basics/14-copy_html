@@ -1,2 +1,2 @@
 #!/bin/bash
-for f in *.html; do if [ ! -e "../$f" ] || [ "$f" -nt "../$f" ]; then cp "$f" "../"; fi; done
+find /home/Foo/folder_source -name "*.html" -exec cp {} /home/Foo/other_folder/folder_destination  \;
