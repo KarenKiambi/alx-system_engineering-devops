@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "0 string SCHOOL School data file\n!:mime School" > school.magic file -C -m school.magic mv school.magic.mgc school.mgc rm school.magic
+echo "0 string SCHOOL School data file\n!:mime School" > school.magic file -C -m school.magic mv ~/.magic.mgc school.mgc file -m school.mgc *
