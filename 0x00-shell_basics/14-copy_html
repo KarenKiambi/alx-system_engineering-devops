@@ -1,2 +1,2 @@
 #!/bin/bash
-find /home/Foo/folder_source -name "*.html" -exec cp {} /home/Foo/other_folder/folder_destination  \;
+for file in *.html; do [ ! -e "../file" ] || [ "file" -nt "../file" ] , cp "file" "../" , echo -e "Copied file to ../\n" , done
