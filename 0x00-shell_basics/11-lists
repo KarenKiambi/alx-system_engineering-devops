@@ -1,6 +1,3 @@
 #!/bin/bash
-
-ls -la
-cd ..
-ls -la
-ls -la /boot
+#!/bin/bash
+ls -la; echo -e "\n"; cd ..; ls -la; echo -e "\n"; ls -la /boot
